@@ -1,0 +1,182 @@
+
+/* AI NEXUS - Website Theme */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f6ff;
+    color: #171b45;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(120deg, #080b25, #28106b, #1749a8);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+header p {
+    color: #35e4ff;
+}
+
+/* Navigation */
+nav {
+    background: #080b25;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #762cff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: linear-gradient(90deg, #762cff, #245cff);
+}
+
+/* Main content */
+main {
+    max-width: 1050px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+section, article {
+    margin-bottom: 22px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin: 15px 0;
+    border-radius: 15px;
+    border: 1px solid #e0e3f5;
+    box-shadow: 0 8px 25px #17245b12;
+}
+
+h2 {
+    color: #35118c;
+    border-left: 5px solid #762cff;
+    padding-left: 12px;
+}
+
+h3 {
+    color: #245cff;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: linear-gradient(90deg, #762cff, #245cff);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #080b25;
+}
+
+/* Sessions table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 20px 0;
+}
+
+th {
+    background: #35118c;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #dce0f3;
+    padding: 13px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #f0efff;
+}
+
+/* Registration form */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #c9cdea;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #762cff;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #762cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #080b25;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer strong {
+    color: #35e4ff;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}

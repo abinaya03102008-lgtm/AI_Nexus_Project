@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme Registration</title>
+</head>
+<body>
+
+<header>
+    <h1>Registration Form</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="sessions.html">Sessions</a> |
+    <a href="register.html">Register</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="evidence.html">Evidence</a>
+</nav>
+
+<main>
+    <h2>Participant Details</h2>
+
+    <form action="#" method="get">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution" required>
+        <br><br>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        <br><br>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="session">Select Session:</label>
+        <select id="session" name="session">
+            <option value="ai">Introduction to AI</option>
+            <option value="generative">Generative AI Tools</option>
+            <option value="teaching">AI for Teaching</option>
+            <option value="ethics">Ethical Use of AI</option>
+        </select>
+        <br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <p>
+        Demonstration only: this form does not store registrations
+        or send them to an organiser.
+    </p>
+</main>
+
+<footer>
+    <p>Faculty Development Programme on AI Tools</p>
+</footer>
+
+</body>
+</html>
